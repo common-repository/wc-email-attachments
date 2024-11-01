@@ -1,0 +1,28 @@
+{
+  "name": "pluginever/wc-email-attachments",
+  "description": "Email Attachments for WooCommerce enables the attachment of single or multiple files to any WooCommerce email template.",
+  "homepage": "https://pluginever.com/wc-email-attachments/",
+  "type": "wordpress-plugin",
+  "license": "GPL v2 or later",
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "EAFW\\": ["includes/"]
+    }
+  },
+  "autoload-dev": {},
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/*": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [],
+  "scripts": {}
+}
